@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link href='https://fonts.googleapis.com/css?family=Arsenal' rel='stylesheet'>
+
+  <title>vikas singh</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Arsenal';
+    }
+
+    .header-part {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+
+
+    .head-item-1 {
+      padding: 12px;
+      padding-top: 18px;
+      justify-content: center;
+      align-items: center;
+
+
+    }
+
+    .head-item-2 {
+      padding: 12px;
+      padding-top: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      line-height: 35px;
+
+
+
+    }
+
+    .head-item-1 img {
+      width: 300px;
+      height: 300px;
+    
+    }
+
+    .socail-icon {
+      display: flex;
+      margin-top: 10px;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+
+    .socail-icon i {
+      color: #000046;
+      font-size: 20px;
+      
+    }
+
+    .btn-div {
+      margin-top: 18px;
+    }
+
+    .btn-div a {
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 16px;
+      color: white;
+    }
+
+    .btn-div button {
+      background-image: linear-gradient(to right, #41295a, #2f0743);
+      margin: 20px;
+      padding: 8px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    #myname {
+      font-size: 40px;
+      
+    }
+
+    @media screen and (max-width:500px){
+      #myname {
+      font-size: 30px;
+    }
+    }
+
+    #jobtitle {
+      font-size: 20px;
+      filter: drop-shadow(4px 4px 4px lightgrey);
+      margin-top: 8px;
+      
+    }
+
+    /* about-section */
+
+    .about-section {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 12px;
+
+    }
+
+    .about-1 {
+      padding: 12px;
+      padding-top: 18px;
+      line-height: 30px;
+      font-size: 18px;
+
+    }
+
+    .about-1 h2 {
+      font-size: 30px;
+    }
+
+    .about-1 p {
+      margin-top: 10px;
+    }
+
+    .about-2 {
+      display: flex;
+      flex-direction: column;
+      padding: 12px;
+      padding-top: 18px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .about-img {
+      width: 300px;
+
+    }
+
+    .project-section {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      padding: 12px;
+      margin-top: 20px;
+    }
+
+    .project-img {
+      width: 200px;
+    }
+
+    .project-card {
+     
+     background-color: aliceblue;
+      border-radius: 4px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 12px;
+      text-transform: capitalize;
+      margin: 8px
+    }
+    .code-btn{
+      margin-top: 18px;
+    }
+    .code-btn a
+    {
+      text-transform: uppercase;
+      color: #000046;
+      text-decoration: none;
+      margin: 15px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .project-title
+    {
+      display: flex;
+      justify-content: center;
+      text-transform: uppercase;
+      color: #000046;
+
+    }
+
+    @media screen and (max-width:900px) {
+            .about-img {
+                width: 100%;
+
+            }
+          }
+    @media screen and (max-width:700px) {
+      .project-card{
+        flex-direction: column;
+        width: 100%;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- header-part -->
+
+  <div class="header-part">
+    <div class="head-item-1">
+      <img
+        src="my-img.png"
+        alt="vikas">
+    </div>
+    <div class="head-item-2">
+      <h2 id="myname">Hi I am  Vikas Pokhriyal</h2>
+      <p id="jobtitle">Front-End Developer and<br>
+        Canva Designer</p>
+      <div class="socail-icon">
+        <a href="https://github.com/Vikaspokhriyal20"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/vikas-pokhriyal-81b965217/"><i class="bi bi-linkedin"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+      </div>
+      <div class="btn-div">
+        <button><a href="Mailto:pokhriyalvikas940@gmail.com">Let's Chat</a></button>
+        <button><a href="Mailto:pokhriyalvikas940@gmail.com">Download CV</a></button>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- about section -->
+
+  <div class="about-section">
+
+    <div class="about-1">
+      <h2>About Me</h2>
+      <p>Hello I am Front-End Developer using HTML5, Cascade Style stylesheet<br>
+        (css3), Bootstrap,Advance Javascript,Jquery,React.js also I have good<br>
+        knowledge in Git/Github for control my work from anywere. <br>
+        As well as in designing using Canva and i love to do creative work<br>
+        and continuously engage in trying to extend my skills with new technology.</p>
+    </div>
+    <div class="about-2">
+      <img src="about.png" alt="about" class="about-img">
+    </div>
+
+  </div>
+
+  <!-- project-section -->
+
+  <div class="project-title">
+    <h2>api based project </h2>
+  </div>
+
+  <div class="project-section">
+
+    <div class="project-card">
+      <img src="weather.svg" alt="project-img" class="project-img">
+      <p>live weather app </p>
+      <div class="code-btn">
+        <a href="">Preview</a>
+        <a href="">code</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="ui design.svg" alt="project-img" class="project-img">
+      <p>image search app</p>
+      <div class="code-btn">
+        <a href="https://vikaspokhriyal20.github.io/image-search-app/">Preview</a>
+        <a href="https://github.com/Vikaspokhriyal20/react-image-search-app">code</a>
+      </div>
+
+    </div>
+    <div class="project-card">
+      <img src="news.svg" alt="project-img" class="project-img">
+      <p>news app</p>
+      <div class="code-btn">
+        <a href="">Preview</a>
+        <a href="">code</a>
+      </div>
+
+    </div>
+   
+  </div>
+
+  <div class="project-title">
+    <h2>html css Javascript project </h2>
+  </div>
+
+  <div class="project-section">
+
+    <div class="project-card">
+      <img src="todo.svg" alt="project-img" class="project-img">
+      <p>todo list app </p>
+      <div class="code-btn">
+        <a href="">Preview</a>
+        <a href="">code</a>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="odd-even.svg" alt="project-img" class="project-img">
+      <p>odd and even number finder</p>
+      <div class="code-btn">
+        <a href="">Preview</a>
+        <a href="">code</a>
+      </div>
+
+    </div>
+    <div class="project-card">
+      <img src="mic.svg" alt="project-img" class="project-img">
+      <p>text to speech converter</p>
+      <div class="code-btn">
+        <a href="">Preview</a>
+        <a href="">code</a>
+      </div>
+
+    </div>
+   
+
+
+  </div>
+
+
+
+
+</body>
+
+</html>
